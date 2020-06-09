@@ -1,0 +1,27 @@
+extend type Query {
+    users: [User!]! @paginate(defaultCount: 10, type: "paginator" model: "App\\Models\\User")
+    user(id: ID @eq): User @find(model: "App\\Models\\User")
+}
+
+extend type Mutation {
+    createUser(
+        name: String!
+        email: String! @rules(apply: ["email", "unique:users"])
+        password: String! @bcrypt @rules(apply: ["min:6"])
+    ): User @create
+
+    updateUser(
+        id: ID!
+        name: String!
+    ): User @update
+
+    deleteUser(id: ID!): User @delete
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}
