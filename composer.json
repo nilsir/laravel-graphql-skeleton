@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
-        "nuwave/lighthouse": "^4.14"
+        "nuwave/lighthouse": "^4.14",
+        "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.7",
