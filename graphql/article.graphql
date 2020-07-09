@@ -3,6 +3,12 @@ extend type Query {
     articles: [Article!]! @paginate(defaultCount: 10, type: "paginator" model: "App\\Models\\Article")
 }
 
+extend type Mutation {
+    createArticle(title: String!, content: String!): Article
+    @field(resolver: "ArticleMutator@create")
+    @middleware(checks: ["auth:api"])
+}
+
 type Article {
     id: ID!
     title: String!
