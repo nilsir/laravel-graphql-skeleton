@@ -1,4 +1,4 @@
-## 一个基于laravel7.*的支持graphql并实现了jwt认证的骨架项目
+## 一个基于laravel7.*, 支持graphql, 并实现了jwt认证的骨架项目
 
 ### 安装
 ```shell
