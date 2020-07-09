@@ -13,3 +13,4 @@ yarn-error.log
 .idea
 .vscode
 .DS_Strore
+/.phpstorm.meta.php

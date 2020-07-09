@@ -17,6 +17,7 @@
         "nuwave/lighthouse": "^4.14"
     },
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.7",
         "facade/ignition": "^2.0",
         "fzaninotto/faker": "^1.9.1",
         "haydenpierce/class-finder": "^0.4.2",
