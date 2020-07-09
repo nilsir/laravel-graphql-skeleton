@@ -1,7 +1,7 @@
 ## 一个基于laravel7.*的支持graphql并实现了jwt认证的骨架项目
 
 ### 安装
-```shell script
+```shell
 $ git clone https://github.com/nilsir/laravel-graphql-skeleton.git
 $ cd laravel-graphql-skeleton
 # 开发环境
@@ -15,16 +15,18 @@ $ php artisan key:generate
 ...
 # 生成jwt-secret
 $ php artisan jwt:secret
+# 运行seeder
+$ php artisan db:seed
 ```
 
 ### 生成助手文件
-```shell script
-php artisan ide-helper:meta
-php artisan lighthouse:ide-helper
+```shell
+$ php artisan ide-helper:meta
+$ php artisan lighthouse:ide-helper
 ```
 
 ### 启动服务
-```shell script
+```shell
 $ php artisan serve
 ```
 

@@ -15,6 +15,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "nuwave/lighthouse": "^4.14",
+        "overtrue/laravel-lang": "^4.0",
         "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
