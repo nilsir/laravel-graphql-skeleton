@@ -15,6 +15,8 @@ $ php artisan key:generate
 ...
 # 生成jwt-secret
 $ php artisan jwt:secret
+# 生成表
+$ php artisan migrate
 # 运行seeder
 $ php artisan db:seed
 ```
