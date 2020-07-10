@@ -1,0 +1,14 @@
+{
+    "data": {
+        "users": {
+            "data": [
+                {
+                    "id": "@integer@",
+                    "name": "@string@",
+                    "email": "@string@"
+                },
+                @...@
+            ]
+        }
+    }
+}
