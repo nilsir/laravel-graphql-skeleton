@@ -27,6 +27,12 @@ $ php artisan ide-helper:meta
 $ php artisan lighthouse:ide-helper
 ```
 
+### 功能测试
+```shell
+$ php artisan test
+![结果](https://github.com/nilsir/laravel-graphql-skeleton/raw/master/storage/images/test-result.png)
+```
+
 ### 启动服务
 ```shell
 $ php artisan serve
