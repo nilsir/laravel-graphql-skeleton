@@ -1,4 +1,8 @@
-## 一个基于laravel7.*, 支持graphql, 并实现了jwt认证的骨架项目
+<h1 align="center"> 
+laravel-graphql-skeleton </h1>
+
+<p align="center"> 一个基于laravel7.*, 支持graphql, 并实现了jwt认证的骨架项目 </p>
+
 
 ### 安装
 ```shell
@@ -80,3 +84,5 @@ Tool Settins:
 点击: Preference->Keymap->External Tools->External Tools
 右键点击: php-cs-fixer, 选择Add Key Board Shortcut, 添加顺手的快捷键
 ```
+### LICENSE
+MIT
