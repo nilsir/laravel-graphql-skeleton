@@ -124,16 +124,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "6.0.3",
+            "version": "6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "dbbbad7019645f88882b0ab03d51eaedab43917c"
+                "reference": "f986cdd027df5eada7bb8ecfd85a8a3a45602e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/dbbbad7019645f88882b0ab03d51eaedab43917c",
-                "reference": "dbbbad7019645f88882b0ab03d51eaedab43917c",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/f986cdd027df5eada7bb8ecfd85a8a3a45602e64",
+                "reference": "f986cdd027df5eada7bb8ecfd85a8a3a45602e64",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -146,7 +146,6 @@
                 "ext-json": "*"
             },
             "suggest": {
-                "ablunier/laravel-lang-installer": "Command for easily add languages to a Laravel project",
                 "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project",
                 "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
                 "overtrue/laravel-lang": "Command to add languages in your project"
@@ -169,7 +168,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2020-06-21T09:04:45+00:00"
+            "time": "2020-07-11T10:56:34+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -862,16 +861,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v7.19.0",
+            "version": "v7.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "67d6d9688122dcf6c449b74ddc873fc9934e81e6"
+                "reference": "4f373c373915ec828e3374029919a6fe946ed6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/67d6d9688122dcf6c449b74ddc873fc9934e81e6",
-                "reference": "67d6d9688122dcf6c449b74ddc873fc9934e81e6",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4f373c373915ec828e3374029919a6fe946ed6d9",
+                "reference": "4f373c373915ec828e3374029919a6fe946ed6d9",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1021,7 +1020,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-07-07T14:11:36+00:00"
+            "time": "2020-07-10T16:41:39+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -6749,16 +6748,16 @@
         },
         {
             "name": "hamcrest/hamcrest-php",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hamcrest/hamcrest-php.git",
-                "reference": "776503d3a8e85d4f9a1148614f95b7a608b046ad"
+                "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hamcrest/hamcrest-php/zipball/776503d3a8e85d4f9a1148614f95b7a608b046ad",
-                "reference": "776503d3a8e85d4f9a1148614f95b7a608b046ad",
+                "url": "https://api.github.com/repos/hamcrest/hamcrest-php/zipball/8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
+                "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6768,7 +6767,7 @@
                 ]
             },
             "require": {
-                "php": "^5.3|^7.0"
+                "php": "^5.3|^7.0|^8.0"
             },
             "replace": {
                 "cordoval/hamcrest-php": "*",
@@ -6776,14 +6775,13 @@
                 "kodova/hamcrest-php": "*"
             },
             "require-dev": {
-                "phpunit/php-file-iterator": "1.3.3",
-                "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "^1.0"
+                "phpunit/php-file-iterator": "^1.4 || ^2.0",
+                "phpunit/phpunit": "^4.8.36 || ^5.7 || ^6.5 || ^7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -6793,13 +6791,13 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD"
+                "BSD-3-Clause"
             ],
             "description": "This is the PHP port of Hamcrest Matchers",
             "keywords": [
                 "test"
             ],
-            "time": "2016-01-20T08:20:44+00:00"
+            "time": "2020-07-09T08:09:16+00:00"
         },
         {
             "name": "haydenpierce/class-finder",
@@ -6984,16 +6982,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "6c6a7c533469873deacf998237e7649fc6b36223"
+                "reference": "1404386ca3410b04fe58b9517e85d702ab33b2c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/6c6a7c533469873deacf998237e7649fc6b36223",
-                "reference": "6c6a7c533469873deacf998237e7649fc6b36223",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/1404386ca3410b04fe58b9517e85d702ab33b2c6",
+                "reference": "1404386ca3410b04fe58b9517e85d702ab33b2c6",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -7003,15 +7001,15 @@
                 ]
             },
             "require": {
-                "hamcrest/hamcrest-php": "~2.0",
+                "hamcrest/hamcrest-php": "^2.0.1",
                 "lib-pcre": ">=7.0",
-                "php": "^7.3.0"
+                "php": "^7.3 || ^8.0"
             },
             "conflict": {
                 "phpunit/phpunit": "<8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.0.0 || ^9.0.0"
+                "phpunit/phpunit": "^8.5 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -7054,7 +7052,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2020-05-19T14:25:16+00:00"
+            "time": "2020-07-09T08:31:54+00:00"
         },
         {
             "name": "myclabs/deep-copy",
