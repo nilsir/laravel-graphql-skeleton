@@ -38,6 +38,19 @@ $ php artisan test
 $ php artisan serve
 ```
 
+### 通过docker-compose启动
+```shell
+$ cd docker
+$ cp .env.dist .env
+# 然后修改.env的配置信息(该.env为控制docker的环境变量)
+
+# 切回项目根目录 , 编辑.env修改对应的配置信息
+# 修改数据库和redis信息
+
+# 切回docker
+$ docker-compose up -d
+```
+
 ### 访问graphql-playground
 [点击](http://127.0.0.1:8000/graphql-playground)
 
