@@ -15,7 +15,7 @@ services:
       container_name: laravel-graphql-skeleton-mysql
       working_dir: /application
       volumes:
-        - ../database/data/mysql:/application
+        - ../database/data/mysql:/var/lib/mysql
       environment:
         - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
         - MYSQL_DATABASE=${DB_DATABASE}
