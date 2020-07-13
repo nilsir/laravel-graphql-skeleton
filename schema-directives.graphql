@@ -233,10 +233,10 @@ directive @can(
   ability: String!
 
   """
-  The name of the argument that is used to find a specific model
-  instance against which the permissions should be checked.
+  If your policy checks against specific model instances, specify
+  the name of the field argument that contains its primary key(s).
 
-  You may pass the string as a dot notation to search in a array.
+  You may pass the string in dot notation to use nested inputs.
   """
   find: String
 
@@ -287,6 +287,11 @@ directive @count(
   The model to run the count on.
   """
   model: String
+
+  """
+  Apply scopes to the underlying query.
+  """
+  scopes: [String!]
 ) on FIELD_DEFINITION
 
 # Directive class: Nuwave\Lighthouse\Schema\Directives\CreateDirective
@@ -1053,6 +1058,26 @@ directive @whereNotBetween(
   """
   key: String
 ) on ARGUMENT_DEFINITION | INPUT_FIELD_DEFINITION
+
+# Directive class: Nuwave\Lighthouse\Schema\Directives\WithCountDirective
+"""
+Eager-load the count of an Eloquent relation if the field is queried.
+
+Not that this does not return a value for the field, the count is simply
+prefetched, assuming it is used to compute the field value. Use `@count`
+if the field should simply return the relation count.
+"""
+directive @withCount(
+  """
+  Specify the relationship method name in the model class.
+  """
+  relation: String!
+
+  """
+  Apply scopes to the underlying query.
+  """
+  scopes: [String!]
+) on FIELD_DEFINITION
 
 # Directive class: Nuwave\Lighthouse\Schema\Directives\WithDirective
 """
