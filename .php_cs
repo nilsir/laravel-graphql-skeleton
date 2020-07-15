@@ -1,8 +1,15 @@
 <?php
 
+$header = <<<EOF
+This file is part of the laravel-graphql-skeleton.
+(c) nilsir <nilsir@qq.com>
+This source file is subject to the MIT license that is bundled.
+EOF;
+
 $rules = [
     '@PSR2' => true,
     '@Symfony' => true,
+    'header_comment' => array('header' => $header),
     'array_syntax' => ['syntax' => 'short'],
     'no_multiline_whitespace_before_semicolons' => true,
     'no_short_echo_tag' => true,

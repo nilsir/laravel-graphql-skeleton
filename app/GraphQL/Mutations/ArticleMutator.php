@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * This file is part of the laravel-graphql-skeleton.
+ * (c) nilsir <nilsir@qq.com>
+ * This source file is subject to the MIT license that is bundled.
+ */
+
 namespace App\GraphQL\Mutations;
 
 use App\Models\Article;
@@ -10,9 +16,9 @@ class ArticleMutator
     /**
      * Return a value for the field.
      *
-     * @param  null  $rootValue
-     * @param  mixed[]  $args
-     * @param  \Nuwave\Lighthouse\Support\Contracts\GraphQLContext  $context
+     * @param null    $rootValue
+     * @param mixed[] $args
+     *
      * @return mixed
      */
     public function create($rootValue, array $args, GraphQLContext $context)
